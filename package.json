@@ -1,0 +1,12 @@
+{
+  "name": "bank-holidays",
+  "version": "1.0.0",
+  "description": "Simple Node app retrieving data from UK Government API on bank holidays in the UK",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Michal Rudzki",
+  "license": "ISC"
+}

@@ -1,10 +1,10 @@
 {
   "name": "bank-holidays",
   "version": "1.0.0",
-  "description": "Simple Node app retrieving data from UK Government API on bank holidays in the UK",
+  "description": "Node app retrieving data from UK Government API on bank holidays in the UK",
   "main": "server.js",
   "scripts": {
-    "test": "jest --runInBand --detectOpenHandles",
+    "test": "jest --detectOpenHandles",
     "start": "node server.js --harmony",
     "dev": "nodemon index.js --harmony"
   },
@@ -22,7 +22,6 @@
   },
   "jest": {
     "testEnvironment": "node",
-    "testTimeout": 10000,
     "setupFilesAfterEnv": ["jest-extended"]
   }
 }

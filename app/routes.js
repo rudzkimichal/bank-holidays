@@ -26,11 +26,7 @@ const get_data_by_division = async (division) => {
 }
 
 
-// Route / redirect
 
-router.get('/', (req, resp) => {
-  resp.redirect('/all');
-});
 
 // Data UK-wide
 
@@ -63,6 +59,12 @@ router.get('/:division/:year', async (req, resp) => {
   } else {
     resp.redirect('/all');
   }
+});
+
+// Route / redirect
+
+router.get('/', (req, resp) => {
+  resp.redirect('/all');
 });
 
 // Fallback
